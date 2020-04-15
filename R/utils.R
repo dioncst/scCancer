@@ -305,7 +305,7 @@ getDefaultMarkers <- function(species = "human"){
     #     "Monocyte" = c("LYZ"),
     #     "Endothelial" = c("PLVAP"),
     #     "Myofibroblast" = c("ACTA2"),
-    #     "Epithelial" = c("EPCAM", "KRT8"))
+    #     "Epithelial" = c("AGER", "CAV1"))"
 
     if(species == "human"){
         feature.def <- list(
