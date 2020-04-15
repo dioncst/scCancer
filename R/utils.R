@@ -315,7 +315,7 @@ getDefaultMarkers <- function(species = "human"){
             "Myeloid cell" = c("LYZ"),
             "Endothelial" = c("PLVAP"),
             "Fibroblast" = c("ACTA2"),
-            "Epithelial" = c("EPCAM", "KRT8"))
+            "Epithelial" = c("AGER", "CAV1"))
     }else if(species == "mouse"){
         feature.def <- list(
             "T cell" = c("Ptprc", "Cd3d", "Cd4", "Cd8a", "Cd8b"),
